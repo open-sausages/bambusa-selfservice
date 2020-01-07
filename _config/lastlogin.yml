@@ -1,0 +1,12 @@
+---
+Name: bambusa-last-login
+After:
+  - '#coreroutes'
+---
+SilverStripe\Security\Member:
+  extensions:
+    - SilverStripe\Bambusa\SelfService\Extensions\LastLoginExtension
+
+SilverStripe\Control\Director:
+  rules:
+    '_lastlogin': SilverStripe\Bambusa\SelfService\Controllers\LastLogin
