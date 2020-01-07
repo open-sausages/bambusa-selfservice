@@ -14,7 +14,7 @@
     "autoload": {
         "psr-4": {
             "SilverStripe\\Bambusa\\SelfService\\": "src/",
-            "SilverStripe\\Skeleton\\SelfService\\": "tests/"
+            "SilverStripe\\Skeleton\\SelfService\\Tests\\": "tests/"
         }
     }
 }
